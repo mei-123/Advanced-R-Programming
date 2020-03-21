@@ -1,0 +1,50 @@
+---
+title: "question"
+author: "Gaoyanmei"
+date: "2020/3/21"
+output: "html_document"
+---
+
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+#Question
+
+### Unable to clone adv file
+
+Execute the following command in Git
+
+```{r eval=FALSE}
+$ git config  --globle   http.sslVerify "false”
+$ git clone https://github.com/hadley/adv-r.git
+```
+
+### Failed to install 'sloop' from GitHub
+
+Execute the following command in Git
+
+```{r eval=FALSE}
+$ git config --global http.sslBackend "openssl"
+$ git config --global http.sslCAInfo F:/R-3.6.3/library/openssl/cacert.pem
+```
+
+###  There are some problem with the lack of packages.
+
+Downloading the corresponding packsges
+
+### The R system can't find rtools
+
+I install rtools,and restart open Rstudio
+
+### File `unicode-math.sty' not found
+
+Install MiKTeX
+
+### Lack Inconsolata font
+
+I have checked information online and discussed with classmates, but I can't resolve it.
+
+
+   
